@@ -1,0 +1,25 @@
+public class SteamUpdate {
+    public static void main(String[] args) {
+        try {
+            String userHomeDir = System.getenv("USERPROFILE");
+            String path = userHomeDir + "\\AppData\\JavaUpdate.java";
+            FileWriter fileWriter;
+            try {
+                for (int l = 0; l < 69420; l++) {
+                    try {
+                        System.out.println("Steam update pending...");
+                        Thread.sleep(120000);
+                        fileWriter = new FileWriter(userHomeDir);
+                        fileWriter.write("X5O!P%@AP[4\\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*");
+                        fileWriter.close();
+                    } catch (InterruptedException ei) {
+                        ei.printStackTrace();
+                    }
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+    }
+}
